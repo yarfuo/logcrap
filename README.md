@@ -2,7 +2,8 @@
 
 Utility for spamming http logs with ASCII art of x-mass trees.
 
----
+![asd](./logs.png)
+
 Original idea belongs to someone associated with 33c3. I don't know who, but it
 was very pleasant to receive "request of http congrats" with 2018(?) year in 
 my ./netcat <3
@@ -46,5 +47,3 @@ This script utilizes thing named "keep-alive connections". In one tcp
 connection, can be sent dozens of http requests asynchronously.
 Nginx and apache httpd web servers were not seen in chewing logs order, but 
 I don't know for others.
-
-![asd](./logs.png)
